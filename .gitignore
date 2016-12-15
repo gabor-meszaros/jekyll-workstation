@@ -126,3 +126,8 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+### Custom ###
+# Shared sites
+/shared/site/
+
