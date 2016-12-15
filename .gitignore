@@ -131,3 +131,5 @@ $RECYCLE.BIN/
 # Shared sites
 /shared/site/
 
+# Vagrant log files
+/*.log
