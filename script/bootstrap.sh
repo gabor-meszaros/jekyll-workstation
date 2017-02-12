@@ -1,14 +1,14 @@
 #!/bin/bash
 
-# update package information
+# Update package information
 apt -y upgrade
 
-# install jekyll 
-apt -y install jekyll bundler
-#ln -s /usr/bin/nodejs /usr/bin/node # to make nodejs compatible with some old scripts
+# Install Jekyll
+apt -y install build-essential ruby ruby-dev
+gem install jekyll bundler
 
-# install often used programs
+# Install often used programs
 apt -y install vim screen mc
 
-# enable scripts in the script directory
+# Enable scripts in the script directory
 echo "export PATH=/shared/script:$PATH" >> /home/ubuntu/.bashrc
